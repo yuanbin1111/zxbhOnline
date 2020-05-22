@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'organization.apps.OrganizationConfig',
     'operation.apps.OperationConfig',
     'users.apps.UsersConfig',
+    'rest_framework'
 ]
 
 # 使用自己写的UserProfile，而不是系统提供的
